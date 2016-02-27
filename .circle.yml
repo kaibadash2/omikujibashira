@@ -1,8 +1,10 @@
 dependencies:
   pre:
-    - gem install bundler --pre
+    - gem uninstall bundler
+    - gem install bundler -v 1.10.6
   cache_directories:
     - "vendor/bundle"
   override:
     - bundle -j4 --path=vendor/bundle
+
 
