@@ -22,7 +22,7 @@ describe Omikujibashira do
   describe ".omikuji_from_str" do
     subject { Omikujibashira.omikuji_from_str(str, splitter) }
     context "with nil" do
-      let (:str) { nil }
+      let (:str) { "KUSO TEST" }
       let (:splitter) { nil }
       it { is_expected.to eq nil }
     end
