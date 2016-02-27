@@ -6,4 +6,6 @@ dependencies:
   override:
     - bundle -j4 --path=vendor/bundle
 
-
+notify:
+  webhooks:
+    - url: http://pokosho.com:9999/circleci
