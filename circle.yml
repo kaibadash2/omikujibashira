@@ -1,6 +1,5 @@
 dependencies:
   pre:
-    - gem uninstall bundler
     - gem install bundler -v 1.11.2
   cache_directories:
     - "vendor/bundle"
