@@ -1,4 +1,6 @@
 dependencies:
+  pre:
+    - gem install bundler --pre
   cache_directories:
     - "vendor/bundle"
   override:
